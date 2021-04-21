@@ -48,7 +48,7 @@ public class Question5
           for (int j = 0;
               j < number;
               j++) {
-                if (integerList.get(i) == value) {
+                if (integerList.get(j) == value) {
                   count++;
                 }
                 if (count > maxCount) {
@@ -57,7 +57,6 @@ public class Question5
                 }
               }
         }
-    System.out.println(integerList);
     System.out.println(mode);
   }
 }
